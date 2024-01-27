@@ -1,0 +1,22 @@
+.blogs-container{
+width: 96%;
+max-width:  1140px;
+margin: 0 auto;
+}
+.card{
+    color: #333;
+}
+.search-container{
+   margin: 20px 0; 
+}
+.search-input{
+    /* ขยายช่องค้นหา ขอบ */
+    padding: 1em 1em;
+    /* ความกว้าง กี่เปอร์เซน  */
+    width: 96%;
+    font-size: 18px;
+}
+/* mouse curser */
+.search-input:focus{
+    outline: none;
+}

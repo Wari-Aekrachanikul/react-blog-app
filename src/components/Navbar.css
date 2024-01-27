@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+.logo{
+    margin-right: auto;
+    padding-left: 10px;
+    color: white;
+}
+a{
+    color: white;
+    /* ลบเส้นใต้ข้อความ */
+    text-decoration: none; 
+    /* ช่องว่างซ้ายขวา */
+    margin-left: 12px;
+    font-size: 18px;
+    /* ขอบบนขอบล่าง */
+    padding: 10px
+}
+/* เมาส์ชี้ข้อความ */
+a:hover{
+    color: orange;
+}
